@@ -12,7 +12,7 @@ public class Puzzle1 {
     public static void main(String[] args) throws FileNotFoundException {
 
         // Read from file
-        File file = new File("day1\\input.txt");
+        File file = new File("day1\\input1.txt");
         Scanner reader = new Scanner(file);
 
         // Create a list of integers and a variable to keep track of the counter
