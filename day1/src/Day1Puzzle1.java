@@ -8,7 +8,7 @@ import java.util.Scanner;
  * 
  * @author Alyssa Motas
  */
-public class Puzzle1 {
+public class Day1Puzzle1 {
     public static void main(String[] args) throws FileNotFoundException {
 
         // Read from file
