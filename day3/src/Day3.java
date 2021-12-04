@@ -6,10 +6,6 @@ import java.io.FileNotFoundException;
 
 /**
  * Day 3: Binary Diagnostic
- * 
- * Puzzle 1: Use the binary numbers in your diagnostic report to 
- *           calculate the gamma rate and epsilon rate, then multiply them 
- *           together. What is the power consumption of the submarine?
  */
 public class Day3 {
 
@@ -86,6 +82,8 @@ public class Day3 {
             String line = reader.nextLine();
             list.add(line);
         }
+
+        reader.close();
 
         ArrayList<String> oxyNum = new ArrayList<>(list);
         ArrayList<String> co2Num = new ArrayList<>(list);
